@@ -36,12 +36,13 @@ where:
 - **`c`**: The available routing capacity of that edge.
 - **`OFWeight[l]`**: A predefined weight factor for the metal layer `l` to which the edge belongs.
 - **`s`**: A scaling factor whose value depends on the edge capacity `c`:
- $$
- s = \begin{cases}
- 0.5, & \text{if } c > 0 \\
- 1.5, & \text{if } c \leq 0 \quad \text{(e.g., routing blockages)}
- \end{cases}
- $$
+
+$$
+s = \begin{cases}
+0.5, & \text{if } c > 0 \\
+1.5, & \text{if } c \leq 0 \quad \text{(e.g., routing blockages)}
+\end{cases}
+$$
 
 ---
 
