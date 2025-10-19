@@ -71,7 +71,7 @@ The fundamental statistics for each benchmark are detailed in the table below.
 
 ### 2.2. Scoring Parameters
 
-The case-specific weights and reference metrics required for the score calculation are provided below. Note that the `w_4` values are presented scaled by $10^{-8}$.
+The case-specific weights and reference metrics required for the score calculation are provided below. Note that the $w_4$ values are presented scaled by $10^{-8}$.
 
 | ID | $w_1$ | $w_2$ | $w_3$ | $w_4 \times 10^{8}$ | $WNS_ref (ns)$ | $TNS_ref (ns)$ | $TotalPower_{ref} (W)$ |
 |----|----------|---------|---------|---------------------|----------------|----------------|----------------------|
