@@ -11,7 +11,7 @@ The overall quality of a global routing solution is quantified by a composite `f
 The total score is computed using the following formula:
 
 $$
-\text{final\_score} = w_1 \cdot (\text{WNS} - \text{WNS}_{\text{ref}}) + w_2 \cdot \frac{(\text{TNS} - \text{TNS}_{\text{ref}})}{N_{\text{endpoint}}} + w_3 \cdot (\text{TotalPower} - \text{TotalPower}_{\text{ref}}) + w_4 \cdot \text{OverflowScore}
+\text{final score} = w_1 \cdot (\text{WNS} - \text{WNS}_{\text{ref}}) + w_2 \cdot \frac{(\text{TNS} - \text{TNS}_{\text{ref}})}{N_{\text{endpoint}}} + w_3 \cdot (\text{TotalPower} - \text{TotalPower}_{\text{ref}}) + w_4 \cdot \text{OverflowScore}
 $$
 
 where:
